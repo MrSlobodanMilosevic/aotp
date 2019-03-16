@@ -1,0 +1,62 @@
+﻿capital = 46
+
+oob = "ROM_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+
+	parties = {
+        liberal = { 
+            popularity = 1
+        }
+        conservative = {
+            popularity = 46
+        }
+        christian_democrat = {
+            popularity = 1
+        }
+        independent = {
+            popularity = 1
+        }
+        socialist = {
+            popularity = 1
+        }
+        democratic_socialist = {
+            popularity = 0
+        }
+        communist = {
+            popularity = 50
+        }
+        theocratic = {
+            popularity = 0
+        }
+        monarchist = {
+            popularity = 0
+        }
+        autocratic = {
+            popularity = 0
+        }
+        nationalist = {
+            popularity = 0
+        }
+	}
+	
+	ruling_party = communist
+	last_election = "1985.12.22"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Nicolae Ceaușescu"
+	desc = "Nicolae Ceaușescu"
+	picture = "Portrait_Ceausescu.dds"
+	expire = "1989.12.22"
+	ideology = marxist
+	traits = {
+		#
+	}
+}

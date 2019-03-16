@@ -1,0 +1,198 @@
+﻿capital = 107
+
+oob = "YUG_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+
+	parties = {
+        liberal = { 
+            popularity = 10
+        }
+        conservative = {
+            popularity = 1
+        }
+        christian_democrat = {
+            popularity = 1
+        }
+        independent = {
+            popularity = 1
+        }
+        socialist = {
+            popularity = 20
+        }
+        democratic_socialist = {
+            popularity = 0
+        }
+        communist = {
+            popularity = 64
+        }
+        theocratic = {
+            popularity = 1
+        }
+        monarchist = {
+            popularity = 1
+        }
+        autocratic = {
+            popularity = 1
+        }
+        nationalist = {
+            popularity = 0
+        }
+	}
+	
+	ruling_party = communist
+	last_election = "1984.5.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+1995.1.1 = {
+  set_politics = {
+
+	parties = {
+        liberal = { 
+            popularity = 15
+        }
+        conservative = {
+            popularity = 19
+        }
+        christian_democrat = {
+            popularity = 1
+        }
+        independent = {
+            popularity = 1
+        }
+        socialist = {
+            popularity = 60
+        }
+        democratic_socialist = {
+            popularity = 0
+        }
+        communist = {
+            popularity = 1
+        }
+        theocratic = {
+            popularity = 1
+        }
+        monarchist = {
+            popularity = 1
+        }
+        autocratic = {
+            popularity = 1
+        }
+        nationalist = {
+            popularity = 0
+        }
+	}
+	
+	ruling_party = socialist
+	last_election = "1993.6.25"
+	election_frequency = 48
+	elections_allowed = yes
+  }
+}
+
+create_country_leader = {
+	name = "Slobodan Milošević"
+	desc = "Slobodan Milošević"
+	picture = "Portrait_Milosevic.dds"
+	expire = "2000.10.7"
+	ideology = social_democrat_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Zoran Lilić"
+	desc = "Zoran Lilić"
+	picture = "Portrait_Lilic.dds"
+	expire = "1997.6.25"
+	ideology = social_democrat_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Dobrica Ćosić"
+	desc = "Dobrica Ćosić"
+	picture = "Portrait_Cosic.dds"
+	expire = "1993.6.1"
+	ideology = non-aligned_democrat
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Branko Kostić"
+	desc = "Branko Kostić"
+	picture = "Portrait_Kostic.dds"
+	expire = "1992.6.15"
+	ideology = titoist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Stjepan Mesić"
+	desc = "Stjepan Mesić"
+	picture = "Portrait_Mesic.dds"
+	expire = "1991.12.6"
+	ideology = titoist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Sejdo Bajramović"
+	desc = "Sejdo Bajramović"
+	picture = "Portrait_Bajramovic.dds"
+	expire = "1991.6.30"
+	ideology = titoist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Borislav Jović"
+	desc = "Borislav Jović"
+	picture = "Portrait_Jovic.dds"
+	expire = "1991.5.15"
+	ideology = titoist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Janez Drnovšek"
+	desc = "Janez Drnovšek"
+	picture = "Portrait_Drnovsek.dds"
+	expire = "1990.5.15"
+	ideology = titoist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Raif Dizdarević"
+	desc = "Raif Dizdarević"
+	picture = "Portrait_Dizdarevic.dds"
+	expire = "1989.5.15"
+	ideology = titoist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Lazar Mojsov"
+	desc = "Lazar Mojsov"
+	picture = "Portrait_Mojsov.dds"
+	expire = "1988.5.15"
+	ideology = titoist
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,182 @@
+﻿add_namespace = yugoslavia
+
+news_event = {
+	id = yugoslavia.10
+	title = yugoslavia.10.t
+	desc = yugoslavia.10.d
+	picture = GFX_news_event_100
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+	  days = 1
+	}
+	
+	trigger = {
+		original_tag = YUG
+		date > 1988.5.15
+        has_country_leader = {
+          name = "Lazar Mojsov"
+        }
+	}
+
+	option = {
+		name = yugoslavia.10.a
+		retire_country_leader = yes
+	}
+	
+}
+news_event = {
+	id = yugoslavia.11
+	title = yugoslavia.11.t
+	desc = yugoslavia.11.d
+	picture = GFX_news_event_100
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+	  days = 1
+	}
+
+	trigger = {
+		original_tag = YUG
+		date > 1989.5.15
+        has_country_leader = {
+          name = "Raif Dizdarević"
+        }
+	}
+
+	option = {
+		name = yugoslavia.11.a
+		retire_country_leader = yes
+	}
+	
+}
+news_event = {
+	id = yugoslavia.12
+	title = yugoslavia.12.t
+	desc = yugoslavia.12.d
+	picture = GFX_news_event_100
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+	  days = 1
+	}
+
+	trigger = {
+		original_tag = YUG
+		date> 1990.5.15
+        has_country_leader = {
+          name = "Janez Drnovšek"
+        }
+	}
+
+	option = {
+		name = yugoslavia.12.a
+		retire_country_leader = yes
+	}
+	
+}
+news_event = {
+	id = yugoslavia.13
+	title = yugoslavia.13.t
+	desc = yugoslavia.13.d
+	picture = GFX_news_event_100
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+	  days = 1
+	}
+
+	trigger = {
+		original_tag = YUG
+		date > 1991.5.15
+        has_country_leader = {
+          name = "Borislav Jović"
+        }
+	}
+
+	option = {
+		name = yugoslavia.13.a
+		retire_country_leader = yes
+	}
+	
+}
+news_event = {
+	id = yugoslavia.14
+	title = yugoslavia.14.t
+	desc = yugoslavia.14.d
+	picture = GFX_news_event_100
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+	  days = 1
+	}
+
+	trigger = {
+		original_tag = YUG
+		date > 1991.6.30
+        has_country_leader = {
+          name = "Sejdo Bajramović"
+        }
+	}
+
+	option = {
+		name = yugoslavia.14.a
+		retire_country_leader = yes
+	}
+	
+}
+news_event = {
+	id = yugoslavia.15
+	title = yugoslavia.15.t
+	desc = yugoslavia.15.d
+	picture = GFX_news_event_100
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+	  days = 1
+	}
+	
+	trigger = {
+		original_tag = YUG
+		date > 1991.12.6
+        has_country_leader = {
+          name = "Stjepan Mesić"
+        }
+	}
+
+	option = {
+		name = yugoslavia.15.a
+        retire_country_leader = yes
+	}
+	
+}
+news_event = {
+	id = yugoslavia.16
+	title = yugoslavia.16.t
+	desc = yugoslavia.16.d
+	picture = GFX_news_event_100
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+	  days = 1
+	}
+	
+	trigger = {
+		original_tag = YUG
+		date > 1991.12.6
+        has_country_leader = {
+          name = "Stjepan Mesić"
+        }
+	}
+
+	option = {
+		name = yugoslavia.15.a
+    }    	
+}

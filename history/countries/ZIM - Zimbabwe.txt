@@ -1,0 +1,62 @@
+﻿capital = 545
+
+oob = "ROM_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+
+	parties = {
+        liberal = { 
+            popularity = 10
+        }
+        conservative = {
+            popularity = 70
+        }
+        christian_democrat = {
+            popularity = 0
+        }
+        independent = {
+            popularity = 0
+        }
+        socialist = {
+            popularity = 0
+        }
+        democratic_socialist = {
+            popularity = 20
+        }
+        communist = {
+            popularity = 0
+        }
+        theocratic = {
+            popularity = 0
+        }
+        monarchist = {
+            popularity = 0
+        }
+        autocratic = {
+            popularity = 0
+        }
+        nationalist = {
+            popularity = 0
+        }
+	}
+	
+	ruling_party = conservative
+	last_election = "1987.12.31"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Robert Mugabe"
+	desc = "Robert Mugabe"
+	picture = "Portrait_Mugabe.dds"
+	expire = "2020.1.1"
+	ideology = right_wing_conservative
+	traits = {
+		#
+	}
+}

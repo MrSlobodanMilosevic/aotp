@@ -1,0 +1,22 @@
+state={
+	id=793
+	name="West Berlin"
+	manpower = 1000081
+	
+	state_category = rural
+	
+	history={
+		owner = WGR
+		victory_points = {
+			13218 20
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = WGR
+	}
+
+	provinces={
+		13218
+	}
+}

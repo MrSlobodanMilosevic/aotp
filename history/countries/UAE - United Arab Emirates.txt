@@ -1,0 +1,62 @@
+﻿capital = 690
+
+oob = "ROM_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+
+	parties = {
+        liberal = { 
+            popularity = 69
+        }
+        conservative = {
+            popularity = 20
+        }
+        christian_democrat = {
+            popularity = 1
+        }
+        independent = {
+            popularity = 4
+        }
+        socialist = {
+            popularity = 1
+        }
+        democratic_socialist = {
+            popularity = 34
+        }
+        communist = {
+            popularity = 9
+        }
+        theocratic = {
+            popularity = 1
+        }
+        monarchist = {
+            popularity = 1
+        }
+        autocratic = {
+            popularity = 1
+        }
+        nationalist = {
+            popularity = 15
+        }
+	}
+	
+	ruling_party = communist
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Gheorghe Tatarescu"
+	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
+	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
+	expire = "1965.1.1"
+	ideology = marxist
+	traits = {
+		#
+	}
+}

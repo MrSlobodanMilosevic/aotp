@@ -1,0 +1,32 @@
+﻿capital = 335 #Jakarta
+
+oob = "ROM_1936"
+
+set_research_slots = 2
+
+
+set_convoys = 25
+
+set_politics = {
+
+	parties = {
+		communist = { 
+			popularity = 100
+		}
+
+	}
+}
+
+create_country_leader = {
+	name = "Sukarno"
+	desc = "Test"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	expire = "1953.3.1"
+	ideology = marxist
+	traits = {
+		
+	}
+}
+
+
+

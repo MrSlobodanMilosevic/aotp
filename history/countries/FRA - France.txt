@@ -1,0 +1,62 @@
+﻿capital = 16
+
+oob = "ROM_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+
+	parties = {
+        liberal = { 
+            popularity = 40
+        }
+        conservative = {
+            popularity = 3
+        }
+        christian_democrat = {
+            popularity = 0
+        }
+        independent = {
+            popularity = 0
+        }
+        socialist = {
+            popularity = 0
+        }
+        democratic_socialist = {
+            popularity = 54
+        }
+        communist = {
+            popularity = 3
+        }
+        theocratic = {
+            popularity = 0
+        }
+        monarchist = {
+            popularity = 0
+        }
+        autocratic = {
+            popularity = 0
+        }
+        nationalist = {
+            popularity = 0
+        }
+	}
+	
+	ruling_party = democratic_socialist
+	last_election = "1991.5.17"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "François Mitterrand"
+	desc = "François Mitterrand"
+	picture = "Portrait_Mitterrand.dds"
+	expire = "1995.5.17"
+	ideology = democratic_socialist_ideology
+	traits = {
+		#
+	}
+}

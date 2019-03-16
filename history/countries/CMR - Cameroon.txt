@@ -1,0 +1,62 @@
+﻿capital = 791
+
+oob = "ROM_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+
+	parties = {
+        liberal = { 
+            popularity = 5
+        }
+        conservative = {
+            popularity = 5
+        }
+        christian_democrat = {
+            popularity = 0
+        }
+        independent = {
+            popularity = 5
+        }
+        socialist = {
+            popularity = 0
+        }
+        democratic_socialist = {
+            popularity = 5
+        }
+        communist = {
+            popularity = 0
+        }
+        theocratic = {
+            popularity = 0
+        }
+        monarchist = {
+            popularity = 0
+        }
+        autocratic = {
+            popularity = 0
+        }
+        nationalist = {
+            popularity = 80
+        }
+	}
+	
+	ruling_party = nationalist
+	last_election = "1986.11.2"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Paul Biya"
+	desc = "Paul Biya"
+	picture = "Portrait_Biya.dds"
+	expire = "1965.1.1"
+	ideology = nationalist_ideology
+	traits = {
+		#
+	}
+}

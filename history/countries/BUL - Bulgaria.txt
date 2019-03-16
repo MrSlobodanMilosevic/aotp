@@ -1,0 +1,62 @@
+﻿capital = 48
+
+oob = "ROM_1936"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+
+	parties = {
+        liberal = { 
+            popularity = 0
+        }
+        conservative = {
+            popularity = 10
+        }
+        christian_democrat = {
+            popularity = 3
+        }
+        independent = {
+            popularity = 3
+        }
+        socialist = {
+            popularity = 4
+        }
+        democratic_socialist = {
+            popularity = 20
+        }
+        communist = {
+            popularity = 57
+        }
+        theocratic = {
+            popularity = 1
+        }
+        monarchist = {
+            popularity = 1
+        }
+        autocratic = {
+            popularity = 1
+        }
+        nationalist = {
+            popularity = 0
+        }
+	}
+	
+	ruling_party = communist
+	last_election = "1985.11.17"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Todor Zhivkov"
+	desc = "Todor Zhivkov"
+	picture = "Portrait_Zhivkov.dds"
+	expire = "1998.1.1"
+	ideology = marxist
+	traits = {
+		#
+	}
+}

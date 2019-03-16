@@ -1,0 +1,23 @@
+state={
+	id=792
+	name="Istria"
+	manpower = 1000081
+	
+	state_category = rural
+	
+	history={
+		owner = YUG
+		victory_points = {
+			3320 3
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+	}
+
+	provinces={
+		11735
+	}
+}

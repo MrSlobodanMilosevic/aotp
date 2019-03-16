@@ -1,0 +1,56 @@
+bookmarks = {
+	bookmark = {
+		name = "Fall of the Curtain"
+		desc = "The 1988."
+		date = 1988.1.1.12
+		picture = "GFX_select_date_1988"
+		default_country = "USA"
+	
+		USA = {
+			history = USA_START_DESC
+			ideology = conservative
+			focuses = {
+			}
+		}
+		ENG = {
+			history = ENG_START_DESC
+			ideology = conservative
+			focuses = {
+			}
+			
+		}
+		SOV = {
+			history = SOV_START_DESC
+			ideology = communist
+			focuses = {
+			}
+		}
+		DDR = {
+			history = DDR_START_DESC
+			ideology = communist
+			focuses = {
+			}			
+		}
+		YUG = {
+			history = YUG_START_DESC
+			ideology = communist
+			focuses = {
+			}
+		}
+		FRA = {
+			history = FRA_START_DESC
+			ideology = democratic_socialist
+			focuses = {
+			}		
+		}
+		WGR = {
+			history = WGR_START_DESC
+			ideology = christian_democrat
+			focuses = {
+			}	
+		}
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+	}
+}

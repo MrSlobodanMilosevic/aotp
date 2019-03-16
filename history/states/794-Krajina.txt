@@ -1,0 +1,27 @@
+state={
+	id=794
+	name="STATE_794"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		victory_points = {
+			9602 3
+		}
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+
+	}
+	provinces={
+		984 3592 3596 3601 3974 6611 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+state_category=rural
+}
