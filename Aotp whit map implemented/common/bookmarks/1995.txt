@@ -1,0 +1,56 @@
+bookmarks = {
+	bookmark = {
+		name = "Dayton Agreement"
+		desc = "The 1995."
+		date = 1995.12.14.12
+		picture = "GFX_select_date_1995"
+		default_country = "USA"
+	
+		USA = {
+			history = USA_DAYTON_DESC
+			ideology = communist
+			focuses = {
+			}
+		}
+		ENG = {
+			history = ENG_DAYTON_DESC
+			ideology = communist
+			focuses = {
+			}
+		}
+		SOV = {
+			history = RUS_DAYTON_DESC
+			ideology = communist
+			focuses = {
+			}
+			
+		}
+		PRC = {
+			history = PRC_DAYTON_DESC
+			ideology = communist
+			focuses = {
+			}
+		}
+		GER = {
+			history = GER_DAYTON_DESC
+			ideology = communist
+			focuses = {
+			}			
+		}
+		FRA = {
+			history = FRA_DAYTON_DESC
+			ideology = communist
+			focuses = {
+			}		
+		}
+		JAP = {
+			history = JAP_DAYTON_DESC
+			ideology = communist
+			focuses = {
+			}
+		}
+		"---"= {
+			history = "OTHER_BLITZKRIEG_DESC"
+		  }		
+	}
+}
