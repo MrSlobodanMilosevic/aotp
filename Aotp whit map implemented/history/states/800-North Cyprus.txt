@@ -1,0 +1,22 @@
+state={
+	id=800
+	name="STATE_800"
+	
+	state_category=town
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = CYP
+		add_core_of = GRE
+
+	}
+	provinces={
+		11984 
+	}
+	manpower=347959
+	buildings_max_level_factor=1.000
+}

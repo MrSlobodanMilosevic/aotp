@@ -1,0 +1,20 @@
+state={
+	id=792
+	name="STATE_792"
+	state_category=town
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+
+	}
+	provinces={
+		606 953 982 6619 6983 9588 9591 11572 11574 11741 11845 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=791
+	name="STATE_791"
+	
+	state_category=town
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = YUG
+		add_core_of = MNT
+
+	}
+
+	provinces={
+		937 6913 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+}

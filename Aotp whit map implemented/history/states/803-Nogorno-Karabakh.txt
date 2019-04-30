@@ -1,0 +1,22 @@
+state={
+	id=803
+	name="STATE_803"
+	state_category=town
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = AZR
+		add_core_of = ARM
+
+	}
+
+	provinces={
+		1467 9715 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+}
